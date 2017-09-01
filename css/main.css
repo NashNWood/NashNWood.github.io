@@ -298,5 +298,36 @@
     font-size: 50px;
     padding: 0 40px;
   }
+}
+
+/*  Average Laptop screen size  */
+
+@media (max-width: 1600px) {
+  .jumbotron {
+    height: 860px;
+  }
+
+  .main {
+    top: 200px;
+  }
+
+  .about p {
+    width: 400px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 50px;
+    margin: 120px 40px 0 100px;
+    text-align: left !important;
+  }
+
+  .contact h1 {
+    margin-bottom: 160px;
+  }
+
+  .contact img {
+    padding: 0px 10px 0px 10px;
+  }
+}
 
   
